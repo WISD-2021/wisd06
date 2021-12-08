@@ -32,10 +32,18 @@ Route::get('/bb/b1',function(){
     return view('bb.b1');
 });
 
+
 Route::get('/dd/d1', function () {
     return view('dd.d1');
 });
 
 Route::get('/dd/d2', function () {
     return view('dd.d2');
+
+Route::get('/cc/c1', function () {
+    return view('cc.c1');
+});
+Route::get('/cc/c2', function () {
+    return view('cc.c2');
+
 });
